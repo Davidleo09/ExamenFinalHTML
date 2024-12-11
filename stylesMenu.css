@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;    margin: 0;
+  padding: 0;
+  background-color: #52250d;
+}
+  
+header {
+  font-size: 25px;  
+  background-color: #f37924;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #f37924;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f37924;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px; 
+  height: 50px; 
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #52250d;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#contacto {
+  background-color: #f37924;
+  padding: 20px;
+  border: 1px solid #f37924;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+footer {
+  background-color: #f37924;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.enBlanco {
+    color: #fff;
+}
